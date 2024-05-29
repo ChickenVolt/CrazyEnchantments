@@ -240,8 +240,7 @@ public class ArmorEnchantments implements Listener {
             }
             
             if (player.isSneaking() && EnchantUtils.isEventActive(CEnchantments.HATCHER, player, armor, enchants)) {
-                event.setCancelled(true);
-                return;
+                //event.setCancelled(true);
             }
             
             if (EnchantUtils.isEventActive(CEnchantments.MANEUVER, player, armor, enchants)) {
