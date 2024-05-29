@@ -32,6 +32,7 @@ public enum CEnchantments {
     SNIPER("Sniper", "Bow", 25, 5),
     //	----------------Helmets----------------  \\
     GLOWING("Glowing", "Helmet"),
+    HATCHER("Hatcher", "Helmet"),
     MERMAID("Mermaid", "Helmet"),
     IMPLANTS("Implants", "Helmet", 5, 5),
     COMMANDER("Commander", "Helmet"),
