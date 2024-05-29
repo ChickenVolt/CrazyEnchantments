@@ -52,6 +52,9 @@ Tinker:
     Glowing: #Enchantment name (Not custom name)
       Items: '20, 1' #Amount of Xp(Lvl/Total) or Money
       Book: '5, 1' #Max percent on Success/Destroy Dust
+    Hatcher:
+      Items: '20, 1'
+      Book: '5, 1'
     BurnShield:
       Items: '20, 1'
       Book: '5, 1'
