@@ -48,6 +48,36 @@ Enchantments:
       - 'Rare'
       - 'Legendary'
   #Do not change this line.
+  Hatcher: #Do not change these lines. If so you will get errors in the console.
+    #Whether an enchantment is active
+    Enabled: true
+    Sound: "ENTITY_PLAYER_LEVELUP"
+    #The in-game name of the enchantment.
+    Name: '&7Hatcher'
+    #Max lvl the enchantment goes up to.
+    MaxPower: 3
+    #The type of items that can be enchanted with the enchantment.
+    Enchantment-Type: 'Helmet'
+    #Info for the enchantment
+    Info:
+      #Name of the item in the info GUI.
+      Name: '&e&lHatcher &7(&bI&7)'
+      #The description of what it does.
+      Description:
+        - '&7You lay an egg'
+        - '&7whenever you crouch!'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aHelmets'
+    #All the categories the Enchantment can be found in
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  #Do not change this line.
   BurnShield:
     Enabled: true
     Sound: "ENTITY_PLAYER_LEVELUP"
